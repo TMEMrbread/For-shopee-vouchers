@@ -9,7 +9,7 @@ def click(shell):
 #click apply
     shell.stdin.write("input tap 915 352\n")
     shell.stdin.flush()
-    time.sleep(0.6)
+    time.sleep(0.5)
 #testing coordinates "1000", "2000"
 #real order coordinates "900", "2200
     for i in range(20):
